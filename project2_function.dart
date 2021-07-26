@@ -1,4 +1,7 @@
 import 'dart:io';
+import 'dart:math';
+
+
 int add(int num1,int num2){
   int result_add=num1+num2;
   return result_add;}
@@ -27,6 +30,7 @@ double reminder(double length,double width){
 
 
 void main(List<String> arguments) {
+
 
   // هذا البرنامج لحساب مساحة المستطيل والمحيط عن طريق ال function
 print("enter you want to find areaa or reminder ");
@@ -121,20 +125,21 @@ print("enter you want to find areaa or reminder ");
 for(int i =1;i<=12;i++){
   print("انه حدول $i");
   for(int j=1;j<=12;j++){
-    print(i*j);
+    print("$i*$j=${i*j}");
   }
 }
-// هذا البرنامج لعمل كود يضبع ليا الاسم بعد ثلاثة اعداد
-for(int i =1;i<=30;i++){
- if(i%3==0){
-   print("Hazem Fady Mogamed");}
-   else{
-   print(i);
- }
+
   var list_name={5,3,6,"hazem","fady",true,false};
   for(var i in list_name){
     print(i);}
- }}
+  // هذا البرنامج لعمل كود يضبع ليا الاسم بعد ثلاثة اعداد
+  for(int i =1;i<=30;i++){
+    if(i%3==0){
+      print("Hazem Fady Mogamed");}
+    else{
+      print(i);
+    }}}
+
 
 
 
